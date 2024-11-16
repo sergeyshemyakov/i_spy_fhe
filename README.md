@@ -78,3 +78,46 @@ You can see test transactions that went through on corresponding testnet explore
 
 ![Logo](pics/logo.png)
 
+## Inco vs. Fhenix
+
+### Common positives
+
+Things that were very good for both Inco and Fhenix developer experience:
+
+- **Template repo with contract and test examples**: was super easy to grab the template and start working.
+- **Docs explaining FHE usage**: I had no previous experience with FHE however the material was very thorough and clear to use.
+- **FHE just worked without any problems**: no unexpected deep technical caveats, smart contracts were surprisingly simple to develop.
+
+### Common negatives
+
+Things that could be improved for both Inco and Fhenix developer experience:
+
+- **Testnet RPC stability**: deploying and testing contracts on the testnets was 
+very challenging because of slow internet and technical problems with RPCs (see video for some highlights).
+- **No foundry support**: I had to learn not only FHE but also hardhat and JS testing. Not too bad, but it would 
+be nice to support foundy framework. 
+
+### Inco is better than Fhenix
+
+Things where I appreciated Inco over Fhenix.
+
+- **Local network testing**: using docker and GH codespaces I was able to test Inco deployments 
+locally without spending testnet tokens and waiting for RPC responses. I was not able to 
+do the same for Fhenix (maybe because they just released Nitrogen?).
+- **Support on site**: Inco had devs the whole event, they were extremely helpful. 
+Although Fhenix team also supported me in setting up. 
+- **Testnet faucet**: Inco faucet was super easy to use (I had to fund 5 accounts). For
+Fenix I had to manually transfer testnet tokens from a single account.
+
+### Fhenix is better than Inco
+
+- **Sleeker syntax**: Fhenix tests were simpler to write because of simpler encrypted
+transaction construction. Also, the smart contracts 
+didn't require calling `TFHE.allow` all the time.
+- **More stable testnet**: Even though Fhenix deployed Nitrogen couple of days before
+the hack, it was a more responsive, faster and stable.
+
+### Conclusion
+
+Inco and Fhenix are comparable in devEx. I was positively surprised by the simplicity 
+of both. Each had their own annoying details but ultimately worked well.
