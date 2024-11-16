@@ -4,7 +4,7 @@
 
 **Cypherpunk exploration of Fully Homomorphic Encryption that compares dev experience on Inco and Fhenix.**
 
-ETHGlobal project from Bangkok 2024.
+ETHGlobal project from Bangkok 2024. Hacking solo so no UI, only onchain logic and JS tests.
 
 ### Description
 
